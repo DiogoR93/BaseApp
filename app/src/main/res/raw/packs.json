@@ -1,0 +1,8 @@
+[
+  { "id": 1, "description": "Card Alpha", "packId": 1 },
+  { "id": 2, "description": "Card Beta", "packId": 1 },
+  { "id": 3, "description": "Card Gamma", "packId": 2 },
+  { "id": 4, "description": "Card Delta", "packId": 2 },
+  { "id": 5, "description": "Card Epsilon", "packId": 3 },
+  { "id": 6, "description": "Card Zeta", "packId": 3 }
+]
