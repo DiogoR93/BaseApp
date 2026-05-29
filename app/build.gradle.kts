@@ -35,6 +35,16 @@ android {
     buildFeatures {
         compose = true
     }
+
+    packaging {
+        resources {
+            excludes += "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
+        }
+    }
+}
+
+kapt {
+    correctErrorTypes = true
 }
 
 dependencies {
@@ -73,5 +83,4 @@ dependencies {
     implementation(libs.okhttp.logging.interceptor)
     implementation(libs.moshi)
     implementation(libs.moshi.kotlin)
-    kapt(libs.moshi.kotlin.codegen)
 }
